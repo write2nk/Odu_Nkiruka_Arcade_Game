@@ -1,25 +1,16 @@
 body {
     text-align: center;
 }
-.modal-bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.438);
-
-
-}
 .modal_body{
-    position: relative;
-    width: 400px;
+    position: absolute;
+    width: 300px;
     height: 200px;
     top: 50%;
     left: 50%;
-    background: #fff;
+    background: #f44194;
     transform: translate(-50%, -70%);
     border-radius: 5px;
+    color: #fff;
     }
 
     .modal_button{
@@ -41,4 +32,12 @@ body {
     .modal_close{
         font-size: 2rem;
         font-weight: bold;
+    }
+    button{
+        width: 80px;
+        height: 40px;
+        background-color: #fff;
+        color: #a7f442;
+        font-size: 20px;
+        border-radius: 5px;
     }
