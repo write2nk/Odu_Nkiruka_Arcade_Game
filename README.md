@@ -8,5 +8,10 @@ The game can be played following these steps
 - Do this untill you successfully reach the river.
 
 ## How to install the Game ##
-- You can click the 
+- You can click the [link] (https://write2nk.github.io/Odu_Nkiruka_Arcade_Game/) and play the game directly with your browser
+
+## OR ##
+- You can download the zipped file from my github page and unzipped and run it loaclly on your browser
+##
+
 https://write2nk.github.io/Odu_Nkiruka_Arcade_Game/
