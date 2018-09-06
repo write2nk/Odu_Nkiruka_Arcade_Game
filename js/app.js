@@ -61,7 +61,7 @@ class Hero{
             }
 
             // to check if the player has won the game!
-            if(this.y === 55){
+            if(this.y === -28){
                 this.winner = true;
             }
         }
@@ -78,7 +78,7 @@ class Hero{
             break;
 
             case 'up':
-            if(this.y > this.jump){
+            if(this.y > 0){
                this.y -= this.jump; 
             }
             break;
@@ -103,12 +103,12 @@ class Hero{
         this.x = this.startPointX;
      }
 }const player = new Hero();
-const bug1 = new Enemy(-101, 0, 200);
-const bug2 = new Enemy(-101, 83, 300);
-const bug3 = new Enemy((-101*2.5), 83, 300);
+const bug1 = new Enemy(0, 0, 100);
+const bug2 = new Enemy(0, 83, 182);
+const bug3 = new Enemy(0, 166, 202);
     const allEnemies = [];
     allEnemies.push(bug1, bug2, bug3);
-    console.log(allEnemies);
+    //console.log(allEnemies);
 //const allEnemies = [];
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
