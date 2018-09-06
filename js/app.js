@@ -69,34 +69,35 @@ class Hero{
         ctx.drawImage(Resources.get(this.sprite), this.x, this.y)
      }
 //@param {string} input;
-         handleInput(input){
+     handleInput(input){
         switch(input){
             case 'left':
             if(this.x > 0){ //to prevent our char-boy from moving out of the game board.
-                this.x -= 102;
+                this.x -= this.step;
             }
             break;
 
             case 'up':
             if(this.y > 0){
-               this.y -= 83; 
+               this.y -= this.jump; 
             }
             break;
 
             case 'right':
-            if(this.x < 405){
-              this.x += 102;  
+            if(this.x < this.step*4){
+              this.x += this.step;  
             }
             break;
 
             case 'down':
             if(this.y < this.jump *4){
-                this.y += 83;
+                this.y += this.jump;
             }
             
             break;
         }
      }
+
      reset(){
         this.y  = this.startPointY;
         this.x = this.startPointX;
