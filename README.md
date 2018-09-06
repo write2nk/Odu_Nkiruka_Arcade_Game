@@ -12,6 +12,6 @@ The game can be played following these steps
 
 ## OR ##
 - You can download the zipped file from my github page and unzipped and run it loaclly on your browser
-##
+## 
 
 https://write2nk.github.io/Odu_Nkiruka_Arcade_Game/
