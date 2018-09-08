@@ -31,6 +31,7 @@ var Engine = (function(global) {
     canvas.height = 606;
     doc.body.appendChild(canvas);
     
+    //Add Event Listener for modal and replay button
     replay.addEventListener('click',function(){
     modal.classList.toggle('hide');
     player.reset();
