@@ -8,13 +8,17 @@ The game can be played following these steps
 - Do this untill you successfully reach the river.
 - When the player successfully reaches the river, a modal appears to congratulate the player, and asks if the player wishes to play Again,
 - The modal contains a button  `Replay` button which resets the game and starts again.
-- If the user wishes to end the game, the player clicks the `close` button.
 
 ## How to install the Game ##
 - You can click the [link](https://write2nk.github.io/Odu_Nkiruka_Arcade_Game/) and play the game directly with your browser
 
 ## OR ##
 - You can download the zipped file from my github page and unzipped and run it loaclly on your browser
+
+## Aim of the Game ##
+- for the developer to learn how to use OOP tools and techniques
+- for the player to learn from the game how to navigate and achieve their goals even in the midst of distractions.
+
 ## Reference ##
 I got some help from [mattthew](https://matthewcranford.com/arcade-game-walkthrough) walk through page
 
