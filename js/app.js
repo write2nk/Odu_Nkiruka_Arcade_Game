@@ -39,8 +39,8 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
-
-class Hero{
+// Declare a class myHero to set the statring positions of myHero, to set the bugs/enemies 
+class myHero{
         constructor(){
             this.sprite = 'images/char-boy.png';
             this.step = 101;
@@ -102,7 +102,7 @@ class Hero{
         this.y  = this.startPointY;
         this.x = this.startPointX;
      }
-}const player = new Hero();
+}const player = new myHero();
 const bug1 = new Enemy(0, 0, 100);
 const bug2 = new Enemy(0, 83, 182);
 const bug3 = new Enemy(0, 166, 202);
